@@ -7,12 +7,7 @@
 ### 📦 GitHub Repository:
 👉 **[https://github.com/singh99abhi/realtime-collaborative-kanban](https://github.com/singh99abhi/realtime-collaborative-kanban)**
 
-### 🚀 1-Click Free Cloud Deployments:
-- **Deploy Free on Render (Unified Full-Stack)**:  
-  [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Fsingh99abhi%2Frealtime-collaborative-kanban)  
-  *(Uses the included [`render.yaml`](render.yaml) to build the frontend, seed SQLite, and host on a free `*.onrender.com` domain)*
-- **Deploy Frontend on Vercel**:  
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsingh99abhi%2Frealtime-collaborative-kanban&root-directory=client)
+
 
 ---
 
