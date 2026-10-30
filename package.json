@@ -1,0 +1,12 @@
+{
+  "name": "realtime-collaborative-kanban",
+  "version": "1.0.0",
+  "description": "Full-Stack Real-Time Collaborative Kanban Board with Socket.IO, Express, SQLite, and React",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev"
+  }
+}

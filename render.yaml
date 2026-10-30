@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: syncboard-collaborative-kanban
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm --prefix server install && npm --prefix client install && npm --prefix client run build && npm --prefix server run seed
+    startCommand: node server/src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: kanban.db
